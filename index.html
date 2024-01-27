@@ -8,7 +8,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <div class="logo">
             <p>DataForm</p>
         </div>
@@ -18,32 +18,47 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Login/SignUp</a></li>
         </ul>
-    </nav>
-        <!-- <div class="navigation">
-            
-            <div class="mid">
+    </nav> -->
+    <div class="container">
+        <form action="#" class="form">
+            <header>Data Form</header>
+            <div class="input-box">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter full name" name="name" required>
             </div>
-            <div class="left">
-                <input type="text" placeholder="Search">
-            </div> 
-        </div> -->
-        <!-- <div class="form">
-            <form action="">
-                <label for="fn">FirstName</label>
-                <input type="text" name="fname">
-                <label for="ln">LastName</label>
-                <input type="text" name="lname">
-                <label for="pn">PhoneNo.</label>
-                <input type="text" name="pNumber">
-                <label for="reg">Registration</label>
-                <input type="text" name="rNumber">
-                <input type="radio"  name="gender" value="male">
-                <label for="m/f">Male</label>
-                <input type="radio"  name="gender" valu="female">
-                <label for="m/f">Female</label>
-            </form>
-        </div>
-        <div class="footer">
+            <div class="input-box">
+                <label for="">username</label>
+                <input type="text" placeholder="Enter username" name="uname">
+            </div>
+            <div class="input-box">
+                <label for="">Phone No.</label>
+                <input type="text" placeholder="Enter phone number" name="pname">
+            </div>
+            <div class="input-box">
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter password" name="pass">
+            </div>
+            <div class="input-box">
+                <label for="">Confom Password</label>
+                <input type="password" placeholder="Enter confom password" name="cpass">
+            </div>
+            <span class="gender-title">Gender</span>
+            <div class="gender-category">
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label>
+                <input type="radio" name="gender">
+                <label for="">other</label>
+            </div>
+            <div class="button-container">
+                <button>Register</button>
+            </div>
+        </form>
+    </div>
+    
+        
+       <!--  <div class="footer">
             <div class="foot">
                 <a href="#">YouTube</a>
                 <a href="#">Instagram</a>

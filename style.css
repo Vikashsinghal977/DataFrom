@@ -1,10 +1,7 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-body{
-    /* background-color: blue; */
 }
 nav{
     width: 100%;
@@ -37,4 +34,10 @@ nav li a{
     font-size: 20px;
     padding: 0px 30px;
     color: wheat;
+} */
+
+/*Form section */
+
+.contener{
+    background-color: aquamarine;
 }
