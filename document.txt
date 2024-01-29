@@ -1,3 +1,11 @@
 show dbs
-db.programing.insertOne
-({name:"Vikash",age:20,hight:{l:5, b:3}})
+db.programing.insertOne({name:"Vikash",age:20,hight:{l:5, b:3}})
+db.programing.insertMany([
+    {name:"Vikash"},
+    {user:"singhle"},
+    {part:85.5}
+])
+
+=======Quary=======
+db.programing.find()
+db.programing.find({name:"Vikash"})
