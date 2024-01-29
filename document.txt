@@ -1,0 +1,3 @@
+show dbs
+db.programing.insertOne
+({name:"Vikash",age:20,hight:{l:5, b:3}})
