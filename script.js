@@ -1,18 +1,19 @@
+
 const {MongoClient} = require("mongodb");
-const url = "mongodb://localhost:27017";
+const url = "mongodb://127.0.0.1:27017";
 const client = new MongoClient(url);
 
 async function getData(){
     try{
-        const database = client.db("sample_myflex");
-        const movies = database.collection("movies");
+        const database = client.db("Employment");
+        const movies = database.collection("programing");
 
         // ading title 
-        const query = {title:"Money hiest"};
-        const movie = await movies.findOne(query);
+        const query = {name:"kaksdbkjdskj", class:"BCA221"};
+        const movie = await movies.insertOne(query);
 
         console.log(movie);
-    } finally{
+    } finally{ 
         await client.close();
     }
 }
